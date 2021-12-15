@@ -44,7 +44,7 @@ public class Main {
                 personList.add(person);
             }
             for (Person person : personList) {
-                System.out.println(person.toString());
+                /////System.out.println(person.toString());
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
